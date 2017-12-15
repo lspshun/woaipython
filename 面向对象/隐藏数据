@@ -1,0 +1,9 @@
+修改对象的属性
+1. 直接通过对象名进行修改
+    kaodigua.cookedlevel = 5
+2. 通过方法间接修改
+    kaodigua.cook(5)
+为什么定义方法修改?
+若直接修改属性,需要修改两部分,cooklevel和cookstring,使用方法一次jiuok
+若直接访问属性,可能出现数据设置错误的情况,例如coklevel = -3
+使用方法进行数据合法性的检查
